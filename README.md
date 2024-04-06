@@ -2,7 +2,7 @@
 
 **Module 12 Challenge: UWA/edX Data Analytics Bootcamp**
 
-Github repository at: 
+Github repository at: [`nosql_challenge`](https://github.com/RyanLJames1997/nosql-challenge)
 
 ## Instructions
 

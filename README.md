@@ -10,9 +10,9 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 ## Contents
 
-1. Jupyter Notebook database setuo
-2. Juypter Notebook for database analysis
-3. Resources Folder with original  `establishments.json` file for import and analysis
+1. [`NoSQL_setup_starter.ipynb`](https://github.com/RyanLJames1997/nosql-challenge/blob/main/nosql_challenge/Starter_Code/NoSQL_setup_starter.ipynb) Jupyter Notebook database setuo
+2. [`NoSQL_analysis_starter.ipynb`](https://github.com/RyanLJames1997/nosql-challenge/blob/main/nosql_challenge/Starter_Code/NoSQL_analysis_starter.ipynb) Juypter Notebook for database analysis
+3. Resources Folder with original [`establishments.json`](https://github.com/RyanLJames1997/nosql-challenge/blob/main/nosql_challenge/Starter_Code/Resources/establishments.json) file for import and analysis
 
 ## Repository Content
 

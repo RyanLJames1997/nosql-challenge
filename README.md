@@ -4,24 +4,22 @@
 
 Github repository at: 
 
-## Introduction
+## Instructions
 
-## Scope
+The UK Food Standards Agency evaluates various establishments across the United Kingdom, and gives them a food hygiene rating. You've been contracted by the editors of a food magazine, `Eat Safe, Love`, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles.
 
-In this challenge:
+## Contents
 
-### Background
+1. Jupyter Notebook database setuo
+2. Juypter Notebook for database analysis
+3. Resources Folder with original  `establishments.json` file for import and analysis
 
-### Goal
+## Repository Content
 
-### Introductions
+### Part 1: Database and Jupyter Notebook Set Up
 
-## Approach
+### Part 2: Update and Database
 
-### Part 1
-
-### Part 2
-
-### Part 3
+### Part 3: Exploratory Analysis
 
 ## References

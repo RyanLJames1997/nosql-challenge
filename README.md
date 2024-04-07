@@ -67,9 +67,10 @@ Update the new restaurant with the `BusinessTypeID` you found.
 
 - The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority. Then, remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
 
-- Use `update_many` to convert `latitude` and `longitude` to decimal numbers.
+- Some of the number values are stored as `strings`, when they should be stored as numbers, therefore:
 
-- Use `update_many` to convert `RatingValue` to integer numbers.
+    (1) Use `update_many` to convert `latitude` and `longitude` to decimal numbers.
+    (2) Use `update_many` to convert `RatingValue` to integer numbers.
 
 ### Part 3: Exploratory Analysis
 

@@ -69,7 +69,9 @@ Update the new restaurant with the `BusinessTypeID` you found.
 
 - Some of the number values are stored as `strings`, when they should be stored as numbers, therefore:
 
+
     (1) Use `update_many` to convert `latitude` and `longitude` to decimal numbers.
+  
     (2) Use `update_many` to convert `RatingValue` to integer numbers.
 
 ### Part 3: Exploratory Analysis

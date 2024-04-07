@@ -69,12 +69,48 @@ Update the new restaurant with the `BusinessTypeID` you found.
 
 - Some of the number values are stored as `strings`, when they should be stored as numbers, therefore:
 
-
     1. Use `update_many` to convert `latitude` and `longitude` to decimal numbers.
   
     2. Use `update_many` to convert `RatingValue` to integer numbers.
 
 ### Part 3: Exploratory Analysis
+
+`Eat Safe, Love` has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
+
+<b> Instructions: </b>
+
+[`NoSQL_setup_starter.ipynb`](https://github.com/RyanLJames1997/nosql-challenge/blob/main/nosql_challenge/Starter_Code/NoSQL_setup_starter.ipynb) was used during this final section to `answer` the following:
+
+1. <b> Which establishments have a hygiene score equal to 20? </b> 
+    - There are <b> 41 establishments </b> which have a hygiene score equal to 20
+    - Refer to [`NoSQL_setup_starter.ipynb`](https://github.com/RyanLJames1997/nosql-challenge/blob/main/nosql_challenge/Starter_Code/NoSQL_setup_starter.ipynb)) to see the full list of establishments
+    
+2. <b> Which establishments in London have a RatingValue greater than or equal to 4? </b> 
+    - There are <b>33 establishments</b> that have a RatingValue greater than or equal to 4 
+
+5. <b> What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?</b>
+    - Volunteer
+    - Atlantic Fish Bar
+    - Plumstead Manor Nursery
+    - Iceland
+    - Howe and Co Fish and Chips - Van 17
+    
+7. <b>How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.</b>
+   - There are a total of <b>55 establishments</b> with a hygiene score of 0
+
+| Local Authority | Establishment Count |
+|-----------------|---------------------|
+| Thanet          | 1130                |
+| Greenwich       | 882                 |
+| Maidstone       | 713                 |
+| Newham          | 711                 |
+| Swale           | 686                 |
+| Chelmsford      | 680                 |
+| Medway          | 672                 |
+| Bexley          | 607                 |
+| Southend-On-Sea | 586                 |
+| Tendring        | 542                 |
+
 
 
 

@@ -59,7 +59,6 @@ The UK Food Standards Agency evaluates various establishments across the United 
     "Distance":4623.9723280747176,
     "NewRatingPending":True
 }
-``` 
 - Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the `BusinessTypeID` and `BusinessType` fields.
 Update the new restaurant with the `BusinessTypeID` you found.
 

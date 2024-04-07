@@ -86,17 +86,14 @@ Update the new restaurant with the `BusinessTypeID` you found.
     - For reference, [`NoSQL_setup_starter.ipynb`](https://github.com/RyanLJames1997/nosql-challenge/blob/main/nosql_challenge/Starter_Code/NoSQL_setup_starter.ipynb) to see all listed establishments.
     
 2. <b> Which establishments in London have a RatingValue greater than or equal to 4? </b> 
-    - There are <b>33 establishments</b> that have a RatingValue greater than or equal to 4 
+    - There are <b>33 establishments</b> that have a RatingValue greater than or equal to 4
 
-5. <b> What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?</b>
-    - Volunteer
-    - Atlantic Fish Bar
-    - Plumstead Manor Nursery
-    - Iceland
-    - Howe and Co Fish and Chips - Van 17
-    
-7. <b>How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.</b>
+3. <b> What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?</b>
+      - In this analysis, the geocode was compared to find the nearest locations within 0.01 degree on either side of the latitude and longitude.
+   
+5. <b>How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.</b>
    - There are a total of <b>55 establishments</b> with a hygiene score of 0
+   - The `aggregation` method was used.
 
 | Local Authority | Establishment Count |
 |-----------------|---------------------|
@@ -114,6 +111,8 @@ Update the new restaurant with the `BusinessTypeID` you found.
 ## References
 
 1. UK Food Standards Agency - [UK Food standard Agency](https://www.food.gov.uk/). (2022).
+
 2. UK Food Hygiene Rating Data API - [UK food Hygiene Rating](https://ratings.food.gov.uk/open-data/en-GBLinks)
    - Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
+
 3. ChatGPT - Basic coding descriptions 

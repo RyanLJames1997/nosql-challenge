@@ -83,7 +83,7 @@ Update the new restaurant with the `BusinessTypeID` you found.
 
 1. <b> Which establishments have a hygiene score equal to 20? </b> 
     - There are <b> 41 establishments </b> which have a hygiene score equal to 20
-    - Refer to [`NoSQL_setup_starter.ipynb`](https://github.com/RyanLJames1997/nosql-challenge/blob/main/nosql_challenge/Starter_Code/NoSQL_setup_starter.ipynb)) to see the full list of establishments
+    - For reference, [`NoSQL_setup_starter.ipynb`](https://github.com/RyanLJames1997/nosql-challenge/blob/main/nosql_challenge/Starter_Code/NoSQL_setup_starter.ipynb) to see all listed establishments.
     
 2. <b> Which establishments in London have a RatingValue greater than or equal to 4? </b> 
     - There are <b>33 establishments</b> that have a RatingValue greater than or equal to 4 
@@ -111,7 +111,9 @@ Update the new restaurant with the `BusinessTypeID` you found.
 | Southend-On-Sea | 586                 |
 | Tendring        | 542                 |
 
-
-
-
 ## References
+
+1. UK Food Standards Agency - [UK Food standard Agency](https://www.food.gov.uk/). (2022).
+2. UK Food Hygiene Rating Data API - [UK food Hygiene Rating](https://ratings.food.gov.uk/open-data/en-GBLinks)
+   - Accessed Sept 9, 2022 and Sept 12, 2022 with the establishment settings as follows: longitude=51.5072, latitude=-0.1276, maxdistancelimit=4567, pagesize=10000, sortoptionkey=distance, pagenumber=(1,2,3,4,5,6,7,8).
+3. ChatGPT - Basic coding descriptions 
